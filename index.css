@@ -1,10 +1,52 @@
+*{
+    background-color: antiquewhite;
+}
 
-h1{
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  
     
-   text-align: center;
-   color: black;
+}
+header .top-left{
+   margin-left: 25px;
+}
+
+header .center-top{
+  text-align: center;
 
 }
-h2{
-    text-align: center;
+
+header .self-img{
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  
 }
+
+header .top-right{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-right: 25px;
+}
+
+header .github-icon{
+    width: 30px;
+    height: 30px;
+}
+
+header .linkedin-icon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+body{
+    font-size: large;
+}
+
+
+
